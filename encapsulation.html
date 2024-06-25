@@ -15,7 +15,10 @@ function createCircle(radius) {
   }
 };
 
-var circle1 = createCircle();
+var circle1 = createCircle(3);
+
+console.log("Area is " + circle1.area());
+console.log("Radius is " + circle1.radius);
 
 //Write console.log here
 
@@ -35,7 +38,9 @@ function createCircle(radius) {
     }
 };
 
-var circle2 = createCircle();
+var circle2 = createCircle(3);
+console.log("Circumference is " + circle2.circumference());
+console.log("Diameter is " + circle2.diameter);
 
 //Write console.log here
 
